@@ -38,8 +38,6 @@ header {
 
 /* pelicula principal */
 
-
-
 .carousel-item .img-header {
     opacity: 0.2;
     width: 100vw;
@@ -90,8 +88,12 @@ header {
 }
 
 .btn .mInfo {
-    
     color: white;
+}
+
+.iconoCarousel {
+    width: 30px;
+    height: 28px;
 }
 
 .contenedor .botones {
@@ -174,27 +176,75 @@ form #btn {
     text-align: center;
 }
 
-.carousel-caption{
+.carousel-caption {
     text-align: justify;
 }
-.carousel-caption h5{
+
+.carousel-caption h5 {
     font-size: 50px;
-
 }
-.carousel-caption p{
-    font-size: 16px;
 
+.carousel-caption p {
+    font-size: 16px;
 }
 
 /* MEdia queries */
 
 @media screen and (max-width:980px) {
-    .carousel-caption h5{
+    .carousel-caption h5 {
         font-size: 22px;
-        
     }
-    .carousel-caption p{
+    .carousel-caption p {
         font-size: 14px;
-        
     }
 }
+
+@media screen and (max-width:680px) {
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+    .pelicula-principal .btn {
+        width: 80px;
+        height: 60px;
+        text-align: center;
+        align-content: center;
+    }
+    .iconoCarousel {
+        width: 18px;
+        height: 17px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .carousel-caption h5 {
+        font-size: 8px;
+    }
+    .carousel-caption p {
+        font-size: 8px;
+    }
+    .btn .mInfo {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .pelicula-principal .btn {
+        width: 80px;
+        height: 30px;
+        text-align: center;
+        align-content: center;
+        padding: 5px;
+    }
+    .iconoCarousel {
+        width: 12px;
+        height: 11px;
+        margin-top: 15px;
+    }
+    .pelicula-principal .btn {
+        margin-bottom: 0;
+    }
+
+
+    }
