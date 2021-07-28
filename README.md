@@ -23,7 +23,7 @@ Puedes verlo aquí: https://idiazj06.github.io/NetNETapp/
 
 ### 📱 Mobile
 ![Image text](https://github.com/idiazj06/NetNETapp/blob/master/Despliegue%20Pagina/Mobile/screenshot-mobiletest.me-2021.07.27-23_42_38.png)
-<imagen aquí>
+
 
 ## 📌 Stack
 
