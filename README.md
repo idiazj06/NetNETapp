@@ -13,7 +13,7 @@ Puedes verlo aquí: https://idiazj06.github.io/NetNETapp/
 
 ### 💻 Desktop
 
-<imagen aquí>
+
 
 ### 📱 Mobile
 
