@@ -60,6 +60,26 @@ td, th, tr{
     color: whitesmoke;
 }
 
+.contenedor .botones{
+    display: flex;
+}
+
+
+
+.nav-item{
+    margin-right: 50px;
+}
+
+#iconos{    
+    margin-bottom: 5px;
+    height: auto;
+    width: 30px;
+}
+
+h3{
+    color: whitesmoke;
+}
+
 @media  screen and (max-width: 820px) {
     td,th,tr{
         font-size:0.9em;

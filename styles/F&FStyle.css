@@ -83,10 +83,7 @@ header{
     display: flex;
 }
 
-.contenedor .video{
-    max-width: 90vw;
-    max-height: auto;
-}
+
 
 .nav-item{
     margin-right: 50px;
