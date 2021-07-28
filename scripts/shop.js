@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchData();
     if (localStorage.getItem('carrito')) {
         carrito = JSON.parse(localStorage.getItem('carrito'))
-        pintarCarrito()
+        pintarLista()
     }
 })
 
@@ -83,11 +83,11 @@ const setCarrito = objeto => {
     }
 
     carrito[producto.id] = { ...producto }
-    pintarCarrito()
+    pintarLista()
     /* console.log(carrito) */
 }
 
-const pintarCarrito = () => {
+const pintarLista = () => {
     items.innerHTML = ''
     /* console.log(carrito) */
     Object.values(carrito).forEach(producto => {
@@ -125,7 +125,7 @@ const pintarCarrito = () => {
     const btnVaciar = document.getElementById('vaciar-carrito')
     btnVaciar.addEventListener('click', ()=>{
         carrito = {}
-        pintarCarrito()
+        pintarLista()
     })
     
 } 
@@ -137,7 +137,7 @@ const btnAccion = e =>{
         if (producto.cantidad === 0 ) {
             delete carrito[e.target.dataset.id]
         }
-        pintarCarrito() 
+        pintarLista() 
     }
 
     e.stopPropagation()
