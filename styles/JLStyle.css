@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient( 90deg, rgba(107, 107, 107, 0.863), rgb(0, 0, 0)), url(https://i.pinimg.com/originals/5d/24/59/5d245987e8fd014b24ff6bf99808960a.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 8px 0;
+}
+
+/* pelicula principal */
+
+.pelicula-principal{
+    font-size: 16px;
+    min-height: 48.62em;
+    color: whitesmoke;
+    
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.pelicula-principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+    text-align: justify;
+}
+
+.pelicula-principal .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100% ;
+    margin-bottom: 1.25em;
+}
+
+.pelicula-principal .btn{
+    display: flex;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 0.31em;    
+    color: whitesmoke;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 0.75em;
+    align-items: center;
+}
+
+.btn .bi{
+    width: 2.5em;
+    height: auto;
+    margin-right: 0.625em;
+}
+
+.btn .mInfo{
+   margin-top: 1.25em;
+   margin-left: 0.938em;
+}
+
+.contenedor .botones{
+    display: flex;
+}
+
+.contenedor .video{
+    max-width: 90vw;
+    max-height: auto;
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+
+#iconos{    
+    margin-bottom: 5px;
+    height: auto;
+    width: 30px;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+/* MEdia queries */
+@media screen and (max-width:800px) {
+    .pelicula-principal{
+        font-size: 14px;
+    }
+
+    .pelicula-principal .descripcion{
+        max-width: 100%;
+    }
+
+    .pelicula-principal .titulo{
+        font-size: 28px;
+    }
+}

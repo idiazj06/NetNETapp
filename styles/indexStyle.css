@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #141414;
+    overflow-x: hidden;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+#imagen1 {
+    display: inline-block;
+    text-align: center;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 8px 0;
+}
+
+/* pelicula principal */
+
+
+
+.carousel-item .img-header {
+    opacity: 0.2;
+    width: 100vw;
+}
+
+.carousel-item .img-header:hover {
+    opacity: 0.4;
+}
+
+.pelicula-principal .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+    text-align: justify;
+    width: 100vw;
+}
+
+.pelicula-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.pelicula-principal .btn {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    color: whitesmoke;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 0.75em;
+    align-items: center;
+}
+
+.btn .bi {
+    width: 2.5em;
+    height: auto;
+    margin-right: 0.625em;
+}
+
+.btn .mInfo {
+    margin-top: 1.25em;
+    margin-left: 0.938em;
+}
+
+.contenedor .botones {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+#iconos {
+    margin-bottom: 5px;
+    height: auto;
+    width: 30px;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+/* formulario */
+
+#form {
+    border: 1px solid white;
+    max-width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+form #btn {
+    width: 8.125em;
+    margin-bottom: 20px;
+}
+
+/*lista de generos*/
+
+.form input, .form select {
+    inline-size: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    background-color: #251F24;
+    border-radius: 0.5em;
+    padding-inline: 1em;
+    padding-block: 0.75em;
+    color: whitesmoke;
+    font-size: 1;
+    margin-block-end: 1.5em;
+}
+
+.form input[type="submit"] {
+    background: #157EFB;
+    border: none;
+}
+
+.form label {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+/* carousel bootstrap */
+
+.peliculas-recomendadas .img-car {
+    width: 200px;
+    height: auto;
+}
+
+.series-recomendadas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.series-recomendadas .img-car {
+    width: 200px;
+    height: auto;
+}
+
+.carousel-inner {
+    display: flex;
+    text-align: center;
+}
+
+.carousel-caption{
+    text-align: justify;
+}
+.carousel-caption h5{
+    font-size: 50px;
+
+}
+.carousel-caption p{
+    font-size: 16px;
+
+}
+
+/* MEdia queries */
+
+@media screen and (max-width:980px) {
+    .carousel-caption h5{
+        font-size: 22px;
+        
+    }
+    .carousel-caption p{
+        font-size: 14px;
+        
+    }
+}

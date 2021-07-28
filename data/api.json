@@ -1,0 +1,96 @@
+[
+    {
+        "publicacion": 2021,
+        "id": 1,
+        "title": "Rapidos y furiosos 9",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aIyqWTuf6NouKphVlxzbv9pblxQ.jpg"
+    },
+    {
+        "publicacion": 2021,
+        "id": 2,
+        "title": "Justice League",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rkuvJnamPl3xW9wKJsIS6qkmOCW.jpg"
+    },
+    {"publicacion": 2018,
+        "id": 3,
+        "title": "Ready Player One",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2iuVrtC5IpwLtSFSgkIIIKLs0Zq.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 4,
+        "title": "Viuda Negra",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v1XE3dtqd9zsEET0EMkxBgXYP6T.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 5,
+        "title": "Cruellla",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5bsApWAUqb0jeXtHPjKQ6MZOtZJ.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 6,
+        "title": "El conjuro 3",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ghMQALCyytc6W0wlOlMIKiMSRKV.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 7,
+        "title": "Mortal Kombat",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t2GbiMJfO8txoihdJC8RsfK1ds7.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 8,
+        "title": "La guerra del mañana",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tzp6VzED2TBc02bkYoYnQa6r2OK.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 9,
+        "title": "Ejercito de la muerte",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4h1Uc13QPjHTTUX0bikICWUxTSV.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 10,
+        "title": "Space Jam 2",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/i6E8fx8lAEI0PGGCUlaA2Ap1gWi.jpg"
+    },
+    {
+        "publicacion": 2021,
+        "id": 11,
+        "title": "La purga infinita",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5yvawJviOjb2nUFvHGXcCpGVTqy.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 12,
+        "title": "Un jefe en pañales 2",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/85J1DwZowIlKFOF7jllgCD3iHhx.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 13,
+        "title": "Loki",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kAHPDqUUciuObEoCgYtHttt6L2Q.jpg"
+    },
+    {"publicacion": 2014,
+        "id": 14,
+        "title": "Flash",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2O8tlUzKS3uddGW5D2B9XM6b4e.jpg"
+    },
+    {"publicacion": 2021,
+        "id": 15,
+        "title": "Flacon y Winter Soldier",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ysJom0DPLKoQS1y7BkAo0JkBmD1.jpg"
+    },
+    {"publicacion": 2016,
+        "id": 16,
+        "title": "Lucifer",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
+    },
+    {"publicacion": 2018,
+        "id": 17,
+        "title": "Elite",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1aQY4oYX5XOMN0vMDqwzS7hfPIt.jpg"
+    },
+    {
+        "publicacion": 2021,
+        "id": 18,
+        "title": "Superman y Lois",
+        "thumbnailUrl": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vlv1gn98GqMnKHLSh0dNciqGfBl.jpg"
+    }
+]
